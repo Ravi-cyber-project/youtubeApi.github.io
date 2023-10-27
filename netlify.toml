@@ -19,3 +19,8 @@
   #  publish = "dist" # Folder with the static content for _redirect file
 
   ## more info on configuring this file: https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[[redirects]]
+from = "/*"
+to = "/main.ts"
+status = 200
